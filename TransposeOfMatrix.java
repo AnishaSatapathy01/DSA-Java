@@ -12,7 +12,7 @@ public class TransposeOfMatrix {
         {
             for (int j =0;j <cols;j++)
             {
-                arr[i][j]=in.nextInt();
+                arr[i][j]=in.nextInt(); 
             }
 
         }
@@ -20,7 +20,7 @@ public class TransposeOfMatrix {
         {
             for (int j =0;j <cols;j++)
             {
-                System.out.print(arr[j][i]+" ");
+                System.out.print(arr[j][i]+" ");//only flip the order of element instead of row cloumn print column row in the same order!
             }
            System.out.println();
         }
